@@ -127,7 +127,7 @@ func (node *Node) generateFolderPage(hasIndex bool, subindex int) error {
 		MetaData: map[string]interface{}{
 			"title": dir,
 		},
-		Body: []byte(`<p>Welcome to the '<b>` + dir + `</b>' folder of this Xiatech code repo.</p>
+		Body: []byte(`<p>Welcome to the '<b>` + dir + `</b>' folder of this SmartNow code repo.</p>
 		<p>This folder full path in the repo is: ` + fullDir + `</p>
 <p>You will find attachments/images for this folder via the ellipsis at the top right.</p>
 <p>Any markdown or subfolders is available in children pages under this page.</p>`),
